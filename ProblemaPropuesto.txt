@@ -1,1 +1,12 @@
-
+1. Componentes conexas de un grafo
+Desarrolle un programa que determine las componentes conexas de un grafo no
+dirigido representado mediante una matriz de adyacencia booleana. El programa
+deberá solicitar al usuario el número de vértices 𝑛, con 5 ≤ 𝑛 ≤ 15, y ofrecer
+dos opciones para construir la matriz de adyacencia de tamaño 𝑛 × 𝑛:
+• Generación automática: crear aleatoriamente una matriz booleana válida
+para un grafo no dirigido.
+• Ingreso manual: permitir que el usuario introduzca los valores de la matriz.
+Una vez construida la matriz, el programa deberá mostrar el grafo asociado e
+ilustrar, paso a paso, el proceso de la agrupación de los vértices y las gráficas de
+todas las componentes conexas, presentando finalmente el conjunto de vértices
+que conforma cada componente y el número total de componentes encontradas.
